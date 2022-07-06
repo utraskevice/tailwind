@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./styles/index.css" rel="stylesheet" />
+    <title>Tailwind sample</title>
+  </head>
+  <body class="container mx-auto">
+    <div id="aap" class="container m-auto px-3">
+      <header class="mb-[40px]">
+        <div class="h-[61px] bg-green1"></div>
+        <div class="border-4 border-black text-center max-w-[586px] m-auto p-[41px] mt-[-20px] font-bold">
+          <h1 class="text-5xl uppercase mb-6">Urtė Traškevičė</h1>
+          <h2 class="text-white bg-black inline px-4 text-4xl">Programmer</h2>
+        </div>
+      </header>
+      <main>
+        <section id="personal_information" class="grid gap-10 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 mx-auto">
+          <article id="about_me" class="lg:col-start-2 lg:col-end-4 md:col-start-1 md:col-end-3">
+            <h3 class="text-[24px] uppercase font-bold">About me</h3>
+              <hr class="h-2 border-none bg-gray1 my-3 before:block before:absolute before:h-4 before:w-[110px] before:top-[-4px] relative overflow-visible before:bg-green1"/>
+            <div class="mt-[20px] leading-normal text-justify">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam
+              quas facilis pariatur alias temporibus consectetur omnis
+              repellendus voluptate incidunt laboriosam quo veritatis tempora,
+              excepturi voluptatum reiciendis similique animi aperiam hic quod
+              necessitatibus corrupti ipsum perspiciatis cum dicta. Obcaecati
+              eaque, nisi vel minus modi officiis suscipit adipisci quibusdam
+              ipsa eum deleniti.
+            </div>
+          </article>
+          <article id="links" class="lg:col-start-1 lg:row-start-1">
+            <h3 class="text-[24px] uppercase font-bold">Links</h3>
+              <hr class="h-2 border-none bg-gray1 my-3 before:block before:absolute before:h-4 before:w-[110px] before:top-[-4px] relative overflow-visible before:bg-green1"/>
+            <div class="mt-[20px]">
+              <div class="flex align-middle mb-3">
+                <img class="w-[30px] h-[30px]" src="./images/linkedin.svg" alt="linkedIn" />
+                <a class="text-[16px] hover:text-green1 pl-[10px]" target="_blank" href="https://www.linkedin.com">
+                LINKEDIN/username
+              </a>
+              </div>
+              <div class="flex align-middle mb-3">
+                <img class="w-[30px] h-[30px]" src="./images/twitter.svg" alt="twitter" />
+                <a class="text-[16px] hover:text-green1 pl-[10px]"  target="_blank" href="https://www.twitter.com">
+                
+                TWITTER/user-handle
+              </a>
+              </div>
+              <div class="flex align-middle mb-3">
+                <img class="w-[30px] h-[30px]" src="./images/gitHub.svg" alt="github" />
+                <a class="text-[16px] hover:text-green1 pl-[10px]" target="_blank" href="https://www.github.com">
+                
+                GITHUB/username
+              </a>
+              </div>
+              <div class="flex align-middle mb-3">
+                <img class="w-[30px] h-[30px]" src="./images/dev.svg" alt="dev" />
+                <a class="text-[16px] hover:text-green1 pl-[10px]" target="_blank" href="https://www.youtube.com">
+                
+                BLOG/blog-name
+              </a>
+              </div> 
+            </div> 
+          </article>
+          <article id="education" class="">
+            <h3 class="text-[24px] uppercase font-bold">Education</h3>
+              <hr class="h-2 border-none bg-gray1 my-3 before:block before:absolute before:h-4 before:w-[110px] before:top-[-4px] relative overflow-visible before:bg-green1"/>
+            <div class="leading-8 mt-[20px]">
+              <p class="schools__content">
+                <span class="font-bold">School name</span>
+                <br />2009-2013 <br />Degree
+              </p>
+              <hr class="max-w-[200px] h-[2] border-none bg-gray1 my-2" />
+              <p class="schools__content">
+                <span class="schools__content--school-name">School name</span>
+                <br />2009-2013 <br />Degree
+              </p>
+            </div>
+          </article>
+          <article id="personal_skills">
+            <h3 class="text-[24px] uppercase font-bold">Personal Skills</h3>
+              <hr class="h-2 border-none bg-gray1 my-3 before:block before:absolute before:h-4 before:w-[110px] before:top-[-4px] relative overflow-visible before:bg-green1"/>
+            <div class="mt-[20px] uppercase leading-[45px]">
+              <div >
+                <span class="font-bold bg-green1 inline px-[10px] py-[2px] rounded-[12px]">Teamwork</span>
+              </div>
+              <div >
+                <span class="font-bold bg-yellow1 inline px-[10px] py-[2px] rounded-[12px]"
+                  >Communication</span
+                >
+              </div>
+              <div >
+                <span class="font-bold bg-red1 inline px-[10px] py-[2px] rounded-[12px]"
+                  >Organization</span
+                >
+              </div>
+            </div>
+          </article>
+          <article id="technical_skills" class="">
+            <h3 class="text-[24px] uppercase font-bold">Technical Skills</h3>
+              <hr class="h-2 border-none bg-gray1 my-3 before:block before:absolute before:h-4 before:w-[110px] before:top-[-4px] relative overflow-visible before:bg-green1"/>
+            <div class="mt-[20px] uppercase leading-[45px]">
+              <div>
+                <span class="font-bold bg-green1 w-[max-content] px-[10px] py-[2px] rounded-[12px]">HTML</span>
+              </div>
+              <div >
+                <span class="font-bold bg-green1 w-[max-content] px-[10px] py-[2px] rounded-[12px]">CSS/SCSS</span>
+              </div>
+              <div >
+                <span class="font-bold bg-yellow1 w-[max-content] px-[10px] py-[2px] rounded-[12px]"
+                  >Javascript</span>
+              </div>
+              <div>
+                <span class="font-bold bg-yellow1 w-[max-content] px-[10px] py-[2px] rounded-[12px]"
+                  >React.js</span>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <section id="work_experience" class="mt-10 mb-10">
+          <h3 class="text-[24px] uppercase font-bold">Work experience</h3>
+         <hr class="h-2 border-none bg-gray1 my-3 before:block before:absolute before:h-4 before:w-[110px] before:top-[-4px] relative overflow-visible before:bg-green1"/>
+          <div class="lg:flex gap-8 mt-[20px] text-justify">
+            <div id="experiences1" class="py-4 lg:border-r-4 lg:pr-4">
+              <p class="font-bold mb-5 leading-7 text-[16px] text-center">
+                JOB POSITION <br />Company <br />2018 - present
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Laborum voluptatum similique voluptas ex veniam, architecto
+                consectetur alias adipisci eos, nulla repellendus? Dolorum
+                reprehenderit fugiat sint alias amet consectetur sed. Rem?
+              </p>
+              <ul class="mt-2 leading-7">
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem ipsum dolor sit.</li>
+              </ul>
+              <hr class="h-[2px] bg-gray1 border-none mt-4 lg:hidden sm:visible">
+            </div>
+            <div id="experiences2" class="py-4 lg:border-r-4 lg:pr-4">
+              <p class="font-bold mb-5 leading-7 text-[16px] text-center">
+                JOB POSITION <br />Company <br />2018 - present
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Laborum voluptatum similique voluptas ex veniam, architecto
+                consectetur alias adipisci eos, nulla repellendus? Dolorum
+                reprehenderit fugiat sint alias amet consectetur sed. Rem?
+              </p>
+              <ul class="mt-2 leading-7">
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem ipsum dolor sit.</li>
+              </ul>
+              <hr class="h-[2px] bg-gray1 border-none mt-4 lg:hidden sm:visible">
+            </div>
+            <div id="experiences3" class="py-4">
+              <p class="font-bold mb-5 leading-7 text-[16px] text-center">
+                JOB POSITION <br />Company <br />2018 - present
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Laborum voluptatum similique voluptas ex veniam, architecto
+                consectetur alias adipisci eos, nulla repellendus? Dolorum
+                reprehenderit fugiat sint alias amet consectetur sed. Rem?
+              </p>
+              <ul class="mt-2 leading-7">
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem ipsum dolor sit.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="mb-4">
+          <hr class="h-2 border-none bg-gray1 mb-6"/>
+        <div class="lg:flex lg:justify-between md:flex-wrap">
+          <div id="hyperlink1" class="text-center leading-7 flex flex-col lg:w-[30%] sm:w-[100%]">
+            <h2 class="bg-black text-white mb-2 text-[20px] py-1">Location</h2>
+            <a
+              class="hover:text-green1"
+              target="_blank"
+              href="https://www.google.com/maps/place/Vilnius/@54.7007598,24.9735438,10z/data=!3m1!4b1!4m5!3m4!1s0x46dd93fb5c6408f5:0x400d18c70e9dc40!8m2!3d54.6871555!4d25.2796514"
+              >Imaginary `st. 52,</a
+            >
+            <a
+              class="hover:text-green1"
+              target="_blank"
+              href="https://www.google.com/maps/place/Vilnius/@54.7007598,24.9735438,10z/data=!3m1!4b1!4m5!3m4!1s0x46dd93fb5c6408f5:0x400d18c70e9dc40!8m2!3d54.6871555!4d25.2796514"
+              >Vilnius, Narnia</a
+            >
+          </div>
+          <div id="hyperlink2" class="text-center leading-7 flex flex-col lg:w-[30%] sm:w-[100%]">
+            <h2 class="bg-black text-white mb-2 text-[20px] py-1">Contact</h2>
+            <a class="hover:text-green1" href="tel:+370678903245"
+              >+370678903245</a
+            >
+            <a class="hover:text-green1" href="mailto: email@test.dev"
+              >email@test.dev</a
+            >
+          </div>
+          <div id="hyperlink3" class="text-center leading-7 flex flex-col lg:w-[30%] sm:w-[100%]">
+            <h2 class="bg-black text-white mb-2 text-[20px] py-1">Social</h2>
+            <a
+              class="hover:text-green1"
+              href="https://www.linkedin.com"
+            >
+              LINKEDIN/username
+            </a>
+            <a
+              class="hover:text-green1"
+              target="_blank"
+              href="https://www.twitter.com"
+            >
+              TWITTER/@user-handle
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    </div>
+  </body>
+</html>
